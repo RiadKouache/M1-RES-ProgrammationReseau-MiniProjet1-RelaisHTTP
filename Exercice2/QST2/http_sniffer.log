@@ -1,0 +1,23 @@
+[2025-10-16 16:32:52] CLIENT 127.0.0.1:54393 → GET /index.html
+[2025-10-16 16:32:52] SERVEUR → 127.0.0.1:54393 | HTTP/1.1 200 OK | taille=343
+Réponse (décodée) :
+HTTP/1.1 200 OK
+Date: Thu, 16 Oct 2025 14:32:52 GMT
+Server: SimplePythonHTTPServer/1.0
+Content-Length: 186
+Content-Type: text/html
+Connection: close
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Page</title>
+</head>
+<body>
+    <h1>Hello World! This is your page</h1>
+</body>
+</html>
+
+[2025-10-16 16:33:36] CLIENT 127.0.0.1:54396 → GET /admin.html → BLOQUÉ /admin.html
+[2025-10-16 17:21:08] CLIENT 127.0.0.1:61247 → GET /admin.html → BLOQUÉ /admin.html
